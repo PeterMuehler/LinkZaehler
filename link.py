@@ -1,9 +1,9 @@
-seitenummer = input("Bitte geben Sie die maxaimale Seitenzahl ein ")
-b = input("Bitte geben Sie den Link ein und ersetzen Sie die Seitenzahl durch '%a' ")
-
+#python3
+seitenzahl = input("Bitte die maximale Seitenanzahl eingeben.")
+link = input("Bitte den Seitenlink eingeben und die Seitenzahl durch '%a' (ohne '')ersetzen. ")
 a = 1
 
-while a <= seitenummer:
-	string = "http://erolord.com/images/215/2152641/%a.jpg" % (a)
+while a <= int(seitenzahl):
+	string = link % (a)
 	print (string)
 	a = a + 1
