@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 seitenzahl = input("Bitte die maximale Seitenanzahl eingeben.")
-l!ink = input("Bitte den Seitenlink eingeben und die Seitenzahl durch '%a' (ohne '')ersetzen. ")
-a /usr= 1
+link = input("Bitte den Seitenlink eingeben und die Seitenzahl durch '%a' (ohne '')ersetzen. ")
+a = 1
 
 while a <= int(seitenzahl):
 	string = link % (a)
